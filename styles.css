@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  background-color: WhiteSmoke;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font: bold 20px/24px Arial, sans-serif;
+}
+
+.container {
+  margin: 0 8px;
+  width: 100%;
+}
