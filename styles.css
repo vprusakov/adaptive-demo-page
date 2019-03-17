@@ -13,3 +13,62 @@ body {
   margin: 0 8px;
   width: 100%;
 }
+
+@media (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    max-width: 736px;
+  }
+
+  .left-column {
+    float: left;
+    width: 200px;
+  }
+
+  .right-column {
+    overflow: hidden;
+    padding-left: 16px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 976px;
+  }
+
+  .left-column {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1232px;
+  }
+}
+
+.page-block {
+  margin-top: 24px;
+  border: 1px solid #e4e4e4;
+  padding: 0 16px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 1px 0 0 #d3d3d3;
+}
+
+.profile-photo {
+  height: 250px;
+}
+
+.page-info {
+  height: 300px;
+}
+
+.friends-list {
+  height: 350px;
+}
+
+.wall-posts {
+  height: 800px;
+}
