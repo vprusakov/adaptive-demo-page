@@ -13,7 +13,7 @@ body {
   margin: 0 8px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
     max-width: 736px;
@@ -31,7 +31,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .container {
     max-width: 976px;
   }
@@ -41,7 +41,7 @@ body {
   }
 }
 
-@media (min-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   .container {
     max-width: 1232px;
   }
