@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+  display: flow-root;
   margin: 0 8px;
 }
 
@@ -25,9 +26,8 @@ body {
   }
 
   .right-column {
-    overflow: hidden;
+    display: flow-root;
     padding-left: 16px;
-    width: auto;
   }
 }
 
